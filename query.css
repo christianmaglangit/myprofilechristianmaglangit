@@ -1,12 +1,9 @@
 @media only screen and (max-width: 667px) {
-  body {
-    width: 170px;
-  }
   nav {
     display: flex;
     align-items: center;
     position: fixed;
-    width: 170px;
+    width: 100%;
     height: 30px;
     list-style: none;
     background-color: #0e2954;
@@ -17,7 +14,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     padding-left: 5px;
   }
   .mainlogo a {
@@ -35,7 +31,7 @@
     display: flex;
     align-items: center;
     justify-content: end;
-    padding-right: 2px;
+    padding-right: 5px;
   }
   .link li {
     display: flex;
@@ -45,10 +41,10 @@
   .link li a {
     color: #faf5f1;
     text-decoration: none;
-    font-size: 5px;
+    font-size: 7px;
     text-transform: uppercase;
     font-weight: bold;
-    margin: 1.5px;
+    margin: 3px;
     text-shadow: 5px 2px 5px #00203fff;
   }
   .link li a:hover {
@@ -135,7 +131,7 @@
     background-color: #0e2954;
     color: #faf5f1;
     padding: 7px;
-    width: 120px;
+    width: 200px;
     border-radius: 7px;
     font-family: "season";
     font-size: 8px;
@@ -160,7 +156,7 @@
   .about-content {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 95%;
     margin-left: 5px;
   }
 
@@ -210,8 +206,8 @@
     padding-top: 10px;
   }
   .about-con2 p img {
-    width: 100px;
-    height: 130px;
+    width: 200px;
+    height: 230px;
     padding: 5px;
   }
 
@@ -221,7 +217,7 @@
     justify-content: center;
     flex-direction: column;
     border-radius: 5%;
-    width: 95%;
+    width: 100%;
     margin-left: 4px;
     background: linear-gradient(to right, #84a7a1, #2e8a99);
   }
@@ -255,8 +251,8 @@
     gap: 30px;
   }
   #project .image img {
-    width: 150px;
-    height: 90px;
+    width: 200px;
+    height: 110px;
   }
   .proj-title {
     display: flex;
@@ -299,7 +295,7 @@
     align-items: center;
     border-radius: 10px;
     gap: 10px;
-    width: 80px;
+    width: 75%;
     padding: 25px 40px 25px 40px;
     background: linear-gradient(to right, #84a7a1, #2e8a99);
   }
@@ -309,12 +305,12 @@
     align-items: center;
     border-radius: 10px;
     gap: 10px;
-    width: 80px;
+    width: 75%;
     padding: 25px 40px 25px 40px;
     background: linear-gradient(to right, #2e8a99, #84a7a1);
   }
   .proj-about1 {
-    width: 130px;
+    width: 90%;
     height: 250px;
     display: flex;
     align-items: center;
@@ -355,12 +351,11 @@
     background-size: 10px 10px;
     background-position: 10px 10px;
     display: flex;
-    margin-top: 10px;
+    margin-top: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
   }
   .contact-title {
     font-size: 15px;
@@ -370,20 +365,21 @@
   .contact-con1 {
     display: flex;
     width: 100%;
-    height: 200px;
+    height: 150px;
     margin-top: 20px;
   }
   .icon {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 16px;
   }
   .icon-content {
     display: flex;
     flex-direction: column;
     font-size: 8px;
     margin-left: 10px;
+    margin-bottom: 0px;
     gap: 14px;
   }
   .contact-con1 a {
@@ -401,7 +397,8 @@
   .col1 {
     display: flex;
     flex-direction: column;
-    margin-left: 0px;
+    margin: 0px;
+
     gap: 10px;
   }
   .col2 {
@@ -414,10 +411,10 @@
   form {
     display: flex;
     flex-direction: column;
-    margin-left: 1px;
+    margin: 1px;
   }
   form h1 {
-    padding-top: 10px;
+    padding-top: 0px;
     font-size: 8px;
     text-shadow: 1px 2px 5px #00203fff;
   }
