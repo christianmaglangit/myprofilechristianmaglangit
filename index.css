@@ -56,10 +56,7 @@ nav {
   margin: 10px;
   text-shadow: 5px 2px 5px #00203fff;
 }
-.link li a:hover {
-  border-bottom: 3px solid #84a7a1;
-  margin-bottom: 10px;
-}
+
 #profile {
   width: 100%;
   padding-top: 95px;

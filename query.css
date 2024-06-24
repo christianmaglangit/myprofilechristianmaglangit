@@ -47,10 +47,6 @@
     margin: 5px;
     text-shadow: 5px 2px 5px #00203fff;
   }
-  .link li a:hover {
-    border-bottom: 3px solid #84a7a1;
-    margin-bottom: 5px;
-  }
 
   #profile {
     width: 100%;
