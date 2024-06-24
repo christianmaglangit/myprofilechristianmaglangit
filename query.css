@@ -133,11 +133,10 @@
     text-transform: uppercase;
     background-color: #0e2954;
     color: #faf5f1;
-    padding: 7px;
-    width: 100%;
+    padding: 5px;
+    width: 300px;
     border-radius: 7px;
-    font-family: "season";
-    font-size: 18px;
+    font-size: 17px;
   }
   .content2 h3 {
     text-shadow: 1px 2px 5px #00203fff;
@@ -179,7 +178,7 @@
   }
   .about-content p {
     padding-top: 10px;
-    font-size: 22px;
+    font-size: 20px;
     padding-left: 10px;
     padding-bottom: 20px;
   }
@@ -229,9 +228,9 @@
     text-decoration: none;
     color: #faf5f1;
     background-color: #0e2954;
-    padding: 15px;
+    padding: 10px;
     border-radius: 15px;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
     text-transform: uppercase;
     border: 2px solid #00203fff;
@@ -300,7 +299,7 @@
     align-items: center;
     border-radius: 10px;
     gap: 20px;
-    width: 75%;
+    width: 100%;
     padding: 25px 50px 25px 50px;
     background: linear-gradient(to right, #84a7a1, #2e8a99);
   }
@@ -310,7 +309,7 @@
     align-items: center;
     border-radius: 10px;
     gap: 20px;
-    width: 75%;
+    width: 100%;
     padding: 25px 50px 25px 50px;
     background: linear-gradient(to right, #2e8a99, #84a7a1);
   }
@@ -396,7 +395,7 @@
   .icon img {
     width: 17px;
     height: 17px;
-    margin-left: 20px;
+    margin-left: 0px;
   }
   .col1 {
     display: flex;
@@ -407,7 +406,7 @@
   .col2 {
     display: flex;
     flex-direction: column;
-    margin-left: 70px;
+    margin-left: 50px;
   }
   form {
     display: flex;
@@ -416,7 +415,7 @@
   }
   form h1 {
     padding-top: 10px;
-    font-size: 25px;
+    font-size: 22px;
     text-shadow: 1px 2px 5px #00203fff;
   }
   form input {
@@ -438,15 +437,15 @@
     border-radius: 5px;
   }
   form button {
-    width: 160px;
-    height: 40px;
+    width: 150px;
+    height: 30px;
     margin-top: 10px;
     background-color: #0e2954;
     color: #faf5f1;
     border: 2px solid #0e2954;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 17px;
   }
   form button:hover {
     background-color: #faf5f1;
