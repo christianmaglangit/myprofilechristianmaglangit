@@ -24,7 +24,7 @@
     text-transform: uppercase;
     text-decoration: none;
     text-shadow: 2px 4px 5px #00203fff;
-    font-size: 50px;
+    font-size: 40px;
   }
   .link {
     width: 100%;
@@ -41,10 +41,10 @@
   .link li a {
     color: #faf5f1;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: bold;
-    margin: 10px;
+    margin: 5px;
     text-shadow: 5px 2px 5px #00203fff;
   }
   .link li a:hover {
@@ -74,8 +74,8 @@
     height: 100%;
   }
   .profile-image p img {
-    width: 430px;
-    height: 440px;
+    width: 330px;
+    height: 340px;
     border-radius: 50%;
   }
   .social-media {
@@ -106,20 +106,20 @@
     gap: 5px;
   }
   .content1 h1 {
-    font-size: 34px;
+    font-size: 25px;
   }
   .content1 span {
     text-transform: uppercase;
-    background-color: #0e2954;
+    background-color: transparent;
     padding: 5px;
-    color: #faf5f1;
+    color: #0e2954;
     border-radius: 7px;
-    font-family: "season";
     text-shadow: 1px 2px 5px #2e8a99;
-    font-size: 35px;
+    font-size: 22px;
+    font-weight: 800;
   }
   .content1 h2 {
-    font-size: 34px;
+    font-size: 28px;
   }
   .content2 {
     display: flex;
@@ -165,21 +165,21 @@
 
   .about-content h2 {
     font-weight: 800;
-    font-size: 32px;
+    font-size: 25px;
     padding-left: 5px;
     background-color: #0e2954;
     color: #faf5f1;
   }
   .about-content h1 {
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 700;
-
     text-shadow: 1px 2px 5px #00203fff;
-    margin-left: 20px;
+    display: flex;
+    align-self: center;
   }
   .about-content p {
     padding-top: 10px;
-    font-size: 25px;
+    font-size: 22px;
     padding-left: 10px;
     padding-bottom: 20px;
   }
@@ -207,6 +207,7 @@
   .about-content-1 ul li {
     list-style: none;
     padding-top: 10px;
+    font-size: 20px;
   }
   .about-con2 p img {
     width: 300px;
@@ -230,7 +231,7 @@
     background-color: #0e2954;
     padding: 15px;
     border-radius: 15px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
     border: 2px solid #00203fff;
@@ -254,7 +255,7 @@
     gap: 50px;
   }
   #project .image img {
-    width: 400px;
+    width: 350px;
     height: 210px;
   }
   .proj-title {
@@ -262,7 +263,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     padding: 10px;
     text-shadow: 1px 2px 5px #00203fff;
@@ -274,11 +275,11 @@
     gap: 20px;
   }
   .image :first-child:hover {
-    transform: scale(1.4);
+    transform: scale(1.1);
     transition: 0.3s ease-in-out;
   }
   .image :last-child:hover {
-    transform: scale(1.4);
+    transform: scale(1.1);
     transition: 0.3s ease-in-out;
   }
   #image1 {
@@ -326,7 +327,7 @@
   }
   .proj-about1 h3 {
     padding-bottom: 5px;
-    font-size: 24px;
+    font-size: 23px;
   }
   .proj-about1 p {
     padding-bottom: 5px;
@@ -361,7 +362,7 @@
     flex-direction: column;
   }
   .contact-title {
-    font-size: 30px;
+    font-size: 25px;
     text-shadow: 1px 2px 5px #00203fff;
     margin-left: 10px;
   }
@@ -375,12 +376,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 23px;
+    gap: 22px;
   }
   .icon-content {
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 17px;
     margin-left: 10px;
     margin-bottom: 0px;
     gap: 10px;
@@ -393,8 +394,8 @@
     border-bottom: 1px solid #000000;
   }
   .icon img {
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
     margin-left: 20px;
   }
   .col1 {
@@ -460,7 +461,7 @@
     background-color: #0e2954;
     color: #faf5f1;
     height: 30px;
-    font-size: 20px;
+    font-size: 10px;
     text-transform: uppercase;
   }
 }
