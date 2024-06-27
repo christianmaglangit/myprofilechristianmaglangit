@@ -207,26 +207,23 @@
   .about-con2 p img {
     width: 300px;
     height: 330px;
-    padding: 20px;
+    padding: 0px;
   }
 
   .about-con2 {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     border-radius: 5%;
     width: 100%;
-
+    height: 400px;
     background: linear-gradient(to right, #84a7a1, #2e8a99);
   }
-  .about-con2 a {
+  .cvcover a {
     text-decoration: none;
     color: #faf5f1;
     background-color: #0e2954;
-    padding: 10px;
+    padding: 7px;
     border-radius: 15px;
-    font-size: 17px;
+    font-size: 13px;
     font-weight: bold;
     text-transform: uppercase;
     border: 2px solid #00203fff;
